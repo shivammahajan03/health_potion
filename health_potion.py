@@ -1,12 +1,6 @@
-# How to increase the health of a player after the use of Health Potion?
-
-# Health potion will increase the health with a random number anywhere between 25 and 50
-# We'll be using Random module for this
-# Introducing the difficulty level for different values of health potion
-
 import random # Importing the module
 
-health = 50  #health at the start of the game
+health = 50  # health at the start of the game
 
 #Assigning difficulty as Easy = 1, Medium = 2, Difficulty = 3
 difficulty = random.randint(1, 3)
